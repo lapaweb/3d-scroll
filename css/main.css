@@ -116,7 +116,24 @@ video.frame-media_right {
 .frame h3 {
 	font-size: calc(var(--index) * 3);
 }
+
 .frame p {
 	max-width: 30vw;
 	margin-top: 3vh;
+}
+
+.soundbutton {
+	position: fixed;
+	bottom: 5vh;
+	right: 5vw;
+	cursor: pointer;
+	width: 24px;
+	transition: .25s ease;
+  padding: 10px;
+  margin: -10px;
+  box-sizing: content-box;
+}
+
+.soundbutton.paused {
+  opacity: 0.25;
 }
